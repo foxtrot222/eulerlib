@@ -3,6 +3,7 @@
 
 int max(int a, int b);
 int isPrime(int n);
+int generateNthPrime(int n);
 
 #endif
 

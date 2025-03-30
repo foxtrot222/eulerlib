@@ -40,3 +40,18 @@ int isPrime(int n) {
     }
     return 1; 
 }
+
+// Function to generate the nth prime number
+int generateNthPrime(int n) {
+    int count = 0;  
+    int num = 1;    
+
+    while (count < n) {
+        num++; 
+        if (isPrime(num)) {
+            count++; 
+        }
+    }
+
+    return num;
+}
