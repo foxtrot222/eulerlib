@@ -19,7 +19,7 @@ This library contains a collection of utility functions designed to help solve c
 
 3. **Compile your project** by adding `eulerlib.c` to your compile command:
    ```bash
-   gcc main.c eulerlib.c -o your_program_name
+   gcc main.c eulerlib.c -o your_program_name -lm
    ```
 
    Replace `your_program_name` with whatever you want to call your compiled executable.

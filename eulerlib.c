@@ -1,4 +1,5 @@
 #include <math.h>
+
 // To find the maximum of two numbers
 int max(int a, int b)
 {
