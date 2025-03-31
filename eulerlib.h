@@ -8,5 +8,7 @@ extern int sumNumber;
 int summation(int n);
 extern int mulNumber;
 int product(int n);
+void resetSummation();
+void resetProduct();
 #endif
 

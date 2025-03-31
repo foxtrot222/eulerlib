@@ -13,6 +13,9 @@ int max(int a, int b)
 
 // Function to check if a number is prime
 int isPrime(int n) {
+    if (n <= 0) {
+        return 0; 
+    }
     if (n == 1) {
         return 0; 
     }
@@ -69,4 +72,13 @@ int mulNumber = 1;
 int product(int n) {
     mulNumber *= n;
     return mulNumber;
+}
+
+// Functions to reset the summation and product
+void resetSummation() {
+    sumNumber = 0;
+}
+
+void resetProduct() {
+    mulNumber = 1;
 }
