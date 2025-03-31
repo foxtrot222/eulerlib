@@ -63,3 +63,10 @@ int summation(int n) {
     sumNumber += n;
     return sumNumber;
 }
+
+// Function to find product
+int mulNumber = 1;
+int product(int n) {
+    mulNumber *= n;
+    return mulNumber;
+}
