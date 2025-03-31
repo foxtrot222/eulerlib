@@ -56,3 +56,10 @@ int generateNthPrime(int n) {
 
     return num;
 }
+
+// Function to find summation
+int sumNumber = 0;
+int summation(int n) {
+    sumNumber += n;
+    return sumNumber;
+}

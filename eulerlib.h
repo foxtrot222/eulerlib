@@ -4,6 +4,8 @@
 int max(int a, int b);
 int isPrime(int n);
 int generateNthPrime(int n);
+extern int sumNumber;
+int summation(int n);
 
 #endif
 
